@@ -2,6 +2,9 @@
 
 An open-source lightweight CAN bus intrusion detection and defense system for personal vehicle security.
 
+
+[日本語READMEはこちら](README.ja.md)
+
 ## Purpose
 
 This project aims to defend against CAN bus-based vehicle theft attacks, commonly known as "CAN Invader" attacks, by detecting unauthorized unlock signals and automatically responding.
