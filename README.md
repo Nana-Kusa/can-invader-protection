@@ -58,6 +58,7 @@ This project aims to defend against CAN bus-based vehicle theft attacks, commonl
 can-invader-protection/
 ├── README.md
 ├── README.ja.md
+├── CONTRIBUTING.md
 ├── Docs/
 │   ├── vision.md
 │   ├── usage.md
