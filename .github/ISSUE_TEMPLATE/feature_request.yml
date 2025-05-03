@@ -1,0 +1,31 @@
+name: Feature Request
+description: Suggest an idea or improvement
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature! Please explain what you'd like to see.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: What feature do you want?
+      placeholder: e.g., Add night-only mode based on RTC
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain why this feature is useful or necessary
+      placeholder: It helps prevent false alarms during daytime...
+
+  - type: checkboxes
+    id: context
+    attributes:
+      label: Additional context
+      options:
+        - label: I can help implement this feature
+        - label: I want to discuss this before implementing
