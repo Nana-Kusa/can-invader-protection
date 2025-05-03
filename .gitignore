@@ -1,0 +1,22 @@
+# Arduino build artifacts
+*.ino.*
+*.hex
+*.elf
+*.bin
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Backup / temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# VSCode settings
+.vscode/
+
+# Arduino IDE metadata
+*.autosave
