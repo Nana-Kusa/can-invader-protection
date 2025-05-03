@@ -1,0 +1,10 @@
+# Normalize line endings
+* text=auto
+
+# Treat Markdown files as UTF-8
+*.md text eol=lf
+
+# Ignore binary diffs for compiled objects
+*.hex binary
+*.bin binary
+*.elf binary
