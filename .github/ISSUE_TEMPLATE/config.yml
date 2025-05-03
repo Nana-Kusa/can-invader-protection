@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+
+issue_templates:
+  - name: Bug Report
+    description: Report a problem or malfunction
+    labels: [bug]
+    file: bug_report.yml
+
+  - name: Feature Request
+    description: Suggest a new feature or improvement
+    labels: [enhancement]
+    file: feature_request.yml
