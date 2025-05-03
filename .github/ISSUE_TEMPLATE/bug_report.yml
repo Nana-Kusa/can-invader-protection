@@ -1,0 +1,43 @@
+name: Bug Report
+description: Report a problem or malfunction
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the bug as clearly as possible. Thank you for helping us improve this project!
+
+  - type: input
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the unexpected behavior
+      placeholder: e.g., The device failed to re-lock after unlock signal
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Power on the system
+        2. Inject unlock signal
+        3. Observe that re-lock does not happen
+    validations:
+      required: true
+
+  - type: input
+    id: device-info
+    attributes:
+      label: Device Information
+      description: ESP32 version, CAN module, wiring method
+      placeholder: e.g., ESP32-DevKitC + MCP2515 + OBD splitter
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Serial Output or Logs (if any)
+      description: Paste any debug output or observations
