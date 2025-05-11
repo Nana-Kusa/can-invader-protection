@@ -1,6 +1,8 @@
 # CAN Autobaud Sniffer Example
 
-This example automatically detects the baudrate of the connected CAN bus and starts listening to CAN traffic.
+This example automatically detects the baudrate of the connected CAN bus and starts listening to CAN traffic.  
+
+This software is planned to be integrated into the future CAN Invader Attack Protection program.  
 
 ## Hardware Requirements
 
